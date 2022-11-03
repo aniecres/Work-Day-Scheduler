@@ -31,8 +31,19 @@ $(".save").click(function (event) {
     event.preventDefault();
     let saveInfo = $(this).siblings(".time-block").val();
     let info = $(this).parent().attr("id").split("-")[1];
-localStorage.setItem(time, value); 
+localStorage.setItem(saveInfo, info); 
 });
 
+// Data from local starage
+$("#hour08 .time-block").val(localStorage.getItem("08"));
+$("#hour09 .time-block").val(localStorage.getItem("09"));
+$("#hour10 .time-block").val(localStorage.getItem("10"));
+$("#hour11 .time-block").val(localStorage.getItem("11"));
+$("#hour12 .time-block").val(localStorage.getItem("12"));
+$("#hour01 .time-block").val(localStorage.getItem("01"));
+$("#hour02 .time-block").val(localStorage.getItem("02"));
+$("#hour03 .time-block").val(localStorage.getItem("05"));
+$("#hour04 .time-block").val(localStorage.getItem("04"));
+$("#hour05 .time-block").val(localStorage.getItem("08"));
 
 
