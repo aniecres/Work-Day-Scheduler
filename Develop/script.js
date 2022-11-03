@@ -1,6 +1,6 @@
 
 // adding current day
-let current = moment().format("dddd, MMMM YYYY");
+let current = moment().format("dddd, MMMM Do YYYY");
 let newDate = document.getElementById("currentDay");
 newDate.innerHTML = current;
 
