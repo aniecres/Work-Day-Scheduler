@@ -6,7 +6,7 @@ newDate.innerHTML = current;
 
 
 
-// Blocks for the past, present, future
+// If/Else statement on Blocks for the past, present, future
 let currentDate = moment().format("HH");
 
 $(".time").each(function() {
@@ -24,4 +24,15 @@ if (currentDate == time) {
     $(this).addClass("past");
 }
 
-})
+});
+
+// Saving data to the local storage 
+$(".save").click(function (event) {
+    event.preventDefault();
+    let saveInfo = $(this).siblings(".time-block").val();
+    let info = $(this).parent().attr("id").split("-")[1];
+localStorage.setItem(time, value); 
+});
+
+
+
