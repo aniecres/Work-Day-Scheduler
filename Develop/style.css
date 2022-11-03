@@ -21,7 +21,7 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-.time-block {
+.timeBlock {
   white-space: pre-wrap; 
   text-align: center;
   border-radius: 15px;
