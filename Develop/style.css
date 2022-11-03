@@ -21,14 +21,12 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-.description{
-  white-space: pre-wrap;
-}
-
-.time-block{
+.time-block {
+  white-space: pre-wrap; 
   text-align: center;
   border-radius: 15px;
 }
+
 
 .row time {
   white-space: pre-wrap;
@@ -57,9 +55,6 @@ textarea{
   color: white;
 }
 
-.col-md-1 {
-  
-}
 .save {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
