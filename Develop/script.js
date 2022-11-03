@@ -7,13 +7,13 @@ newDate.innerHTML = current;
 
 
 // If/Else statement on Blocks for the past, present, future
-let currentDate = moment().format("HH");
+let newDate = moment().format("HH");
 
 $(".time").each(function() {
     let time = $(this).attr("id").split("-")[1];
 
 
-if (currentDate == time) {
+if (newDate == time) {
     $(this).addClass("present");
     $(this).children(".timeBlock").addClass("present");
 }  else if (currentDate < time) {
@@ -44,6 +44,6 @@ $("#hour01 .timeBlock").val(localStorage.getItem("01"));
 $("#hour02 .timeBlock").val(localStorage.getItem("02"));
 $("#hour03 .timeBlock").val(localStorage.getItem("05"));
 $("#hour04 .timeBlock").val(localStorage.getItem("04"));
-$("#hour05 .timeBlock").val(localStorage.getItem("08"));
+$("#hour05 .timeBlock").val(localStorage.getItem("05"));
 
 
