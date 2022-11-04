@@ -26,4 +26,10 @@ THEN the saved events persist
 
 ## Work
 
+![screencapture-file-Users-anavidcrespo-Desktop-Work-Day-Scheduler-index-html-2022-11-03-23_28_53](https://user-images.githubusercontent.com/111096788/199879803-478fce33-8df4-4f68-89de-2a901fac3abc.png)
+
 ## Links
+https://github.com/aniecres/Work-Day-Scheduler - Github 
+<br>
+- Deployed Website
+
