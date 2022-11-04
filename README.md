@@ -33,5 +33,5 @@ THEN the saved events persist
 ## Links
 https://github.com/aniecres/Work-Day-Scheduler - Github 
 <br>
-- Deployed Website
+https://aniecres.github.io/Work-Day-Scheduler/ - Deployed Website
 
