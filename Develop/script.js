@@ -61,16 +61,16 @@ localStorage.setItem(saveInfo, info);
 });
 
 
-// // Data from local starage
-// $("#hour08 .timeBlock").val(localStorage.getItem("08"));
-// $("#hour09 .timeBlock").val(localStorage.getItem("09"));
-// $("#hour10 .timeBlock").val(localStorage.getItem("10"));
-// $("#hour11 .timeBlock").val(localStorage.getItem("11"));
-// $("#hour12 .timeBlock").val(localStorage.getItem("12"));
-// $("#hour01 .timeBlock").val(localStorage.getItem("01"));
-// $("#hour02 .timeBlock").val(localStorage.getItem("02"));
-// $("#hour03 .timeBlock").val(localStorage.getItem("05"));
-// $("#hour04 .timeBlock").val(localStorage.getItem("04"));
-// $("#hour05 .timeBlock").val(localStorage.getItem("05"));
+// Data from local starage
+$("#hour08 .timeBlock").val(localStorage.getItem("08"));
+$("#hour09 .timeBlock").val(localStorage.getItem("09"));
+$("#hour10 .timeBlock").val(localStorage.getItem("10"));
+$("#hour11 .timeBlock").val(localStorage.getItem("11"));
+$("#hour12 .timeBlock").val(localStorage.getItem("12"));
+$("#hour01 .timeBlock").val(localStorage.getItem("01"));
+$("#hour02 .timeBlock").val(localStorage.getItem("02"));
+$("#hour03 .timeBlock").val(localStorage.getItem("05"));
+$("#hour04 .timeBlock").val(localStorage.getItem("04"));
+$("#hour05 .timeBlock").val(localStorage.getItem("05"));
 
 
