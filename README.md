@@ -2,6 +2,8 @@
 
 ## Usage 
 
+This website is for an individual to use as needed to plan their day. A scheduler where one can save appointments, make notes, etc. By doing so one can write on the time block what is needed to be done and save the information. By hitting save, the lock button as shown, they will be saving the information to be stored there until changed or removed. The color code on the time blocks are to signal what has already been done, Red, what is current, Red, and what will be done in future, Green. As all of this data is saved, they can refresh the page and the data will continued to be saved unless changed or removed permanently.
+
 ## User Story 
 
 AS AN employee with a busy schedule <br>
